@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Usuário</legend>
+            <label for="inome">Nome:</label>
+            <input id="inome" name="tnome" type="text">
+            <br>
+            <label for="idata">Data de nascimento:</label>
+            <input id="idata" name="pdata" type="date">
+            <br>
+            <label for="isexo">Sexo:</label>
+            <select name="slsexo" id="isexo">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="A">Agenero</option>
+            </select>
+            <br>
+            <label>Tipo:</label>
+            <br>
+            <input type="radio" name="rtipo" id="iusuario" value="U">
+            <label for="iusuario">Usuário</label>
+            <br>
+            <input type="radio" name="rtipo" id="iadmin" value="A">
+            <label for="iadmin">Admin</label>
+            <br>
+            <label for="iemail">Email:</label>
+            <input id="iemail" name="ememail" type="text">
+            <br>
+            <label for="iemail">Confirme seu email:</label>
+            <input id="iemail" name="emcemail" type="text">
+            <br>
+            <label for="ifale">Fale sobre você:</label>
+            <br>
+            <textarea name="txtafale" id="ifale" cols="50" rows="10"></textarea>
+            <br>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">  
+        </fieldset>
+</form>
+</body>
+</html>

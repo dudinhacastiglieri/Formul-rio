@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Produto</legend>
+            <label for="iproduto">Produto:</label>
+            <input id="iproduto" name="tproduto" type="text">
+            <br>
+            <label for="idata">Data cadastro:</label>
+            <input id="idata" name="pdata" type="date">
+            <br>
+            <label for="ipeso">Peso:</label>
+            <input id="ipeso" name="tpeso" type="number">
+            <br>
+            <label for="icategoria">Categoria:</label>
+            <select name="slcategoria" id="icategoria">
+                <option value="E">Eletrônicos</option>
+                <option value="M">Moveis</option>
+            </select>
+            <br>
+            <label>Tipo:</label>
+            <br>
+            <input type="radio" name="rtipo" id="inovo" value="U">
+            <label for="inovo">Novo</label>
+            <br>
+            <input type="radio" name="rtipo" id="iusado" value="A">
+            <label for="iusado">Usado</label>
+            <br>
+            <label for="ifale">Descrição:</label>
+            <br>
+            <textarea name="txtafale" id="ifale" cols="40" rows="5"></textarea>
+            <br>
+            <label for="iaval">Avaliação (0-10)</label>
+            <br>
+            <input id="raval" name="raval" type="range">
+            <br>
+            <input type="submit" value="entrar">
+            <input type="reset" value="limpar">  
+        </fieldset>
+</form>
+</body>
+</html>
